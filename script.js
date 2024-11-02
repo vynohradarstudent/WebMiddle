@@ -8,6 +8,8 @@ $(document).ready(function () {
   function show(data) {
     console.log(data);
     console.log(data.event);
+    $(".content1").append(data.event)
+
     console.log(data.event);
     data.guests.forEach((e) => {
       $(".content").append(`
